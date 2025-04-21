@@ -69,7 +69,7 @@ public static void main(String[] args){
         for(int col = 0; col<y ; col++) {
 
         System.out.println(array[x][y] + "\t");
-
+        System.out.println("ho jayega bhai");
         }
         System.out.println();
 
