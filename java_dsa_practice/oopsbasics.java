@@ -1,4 +1,4 @@
-public class oopsbasics {
+//public class oopsbasics {
 //    public static void main(String[] args) {// ab object bnayenge isme class ki sari cheeze impliment ho
 //        //ye physical entities hoti h
 //        // dog ek non-primitive data type h
@@ -181,7 +181,32 @@ public class oopsbasics {
 //        }
 //    }
 
+// inheritance
+// yaha humne parent class  se properties or behaviour inherite ya impliment kr liya
+
+    public class oopsbasics {
+        public static void main(String[] args) {
+
+            complex C1 = new complex();
+            C1.a = 3;
+            C1.b = 4;
+            C1.print();
+
+        }
+    }
+         class complex {
+            int a,b;
+
+            void print(){
+                System.out.println(a+"+"+b+"i");
+            }
+
+            void start(){
+                System.out.println(a+b);
+            }
+
+
+        }
 
 
 
-}
