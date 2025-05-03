@@ -97,20 +97,20 @@ public static void main (String args[]) {
 //    //hum ek sath declare bhi kr sakte h
 //    catch(ArithmeticException | ArrayIndexOutOfBoundsException  e){
 //        System.out.println("padke gye " + e.getMessage());
-//    }
+ //  }
   //  System.out.println("chipi chipi capa capa");
 
     //ab hum ye jo e h isse bhi bohot kuch pass krwa sakte h jese
-//
-//    try{
-//        int result = 5/0;
-//    }
-//    catch(ArrayIndexOutOfBoundsException | ArithmeticException e){
-//        System.out.println(e.getCause());
-//        System.out.println(e.getMessage());
-//        System.out.println(e.getStackTrace());
-//    }
-//    System.out.println("hehehahaha");
+
+   // try{
+   //     int result = 5/0;
+   // }
+  //  catch(ArrayIndexOutOfBoundsException | ArithmeticException e){
+       // System.out.println(e.getCause());
+       // System.out.println(e.getMessage());
+       // System.out.println(e.getStackTrace());
+  //  }
+ //   System.out.println("hehehahaha");
 
 
 
