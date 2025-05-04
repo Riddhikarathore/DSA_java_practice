@@ -74,6 +74,13 @@ public class finallyblock {
     }
     //toh ye use hota h throws ka
 
+
+    //ek or key word hota h jiska naam throw hota h
+
+    //usme hum khdse error ko bta sakte h or throw kr sakte h
+    //next class m dekhte h
+
+
     }
 
 
