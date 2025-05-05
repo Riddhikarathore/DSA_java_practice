@@ -21,33 +21,74 @@ public class genericclass {
 //            this.name = name ;
 //        }
 
-        public static void main (String args[]){
+//        public static void main (String args[]){
+//
+//          dog<String> d1 = new dog<>("riddhika");
+//            System.out.println(d1.name);
+//          dog<Integer> d2 = new dog<>(123);
+//            System.out.println(d2.name);
+//          dog<Boolean> d3 = new dog<>(false);
+//            System.out.println(d3.name);
+//          //yah sb tarah k data type chl jayenge
+//          //pr ye dyan rakhna ki wapper class hi chalega
+//          //primitive type nhi chalega
+//
+//        }
+//        //ab generic class bnate h
+//
+//    static class dog<E>{
+//            E age ;
+//            E name ;
+//            E id;
+//
+//           public dog(E name){
+//                this.name = name ;
+//
+//            }
+     //hum ek ki bjaye do bhi paramatised data pass kr sakte
 
-          dog<String> d1 = new dog<>("riddhika");
-            System.out.println(d1.name);
-          dog<Integer> d2 = new dog<>(123);
-            System.out.println(d2.name);
-          dog<Boolean> d3 = new dog<>(false);
-            System.out.println(d3.name);
-          //yah sb tarah k data type chl jayenge
-          //pr ye dyan rakhna ki wapper class hi chalega
-          //primitive type nhi chalega
+
+    public static void main (String args[]){
+        genericmethod("riddhika");
+
+        dog<Integer,String,String> d1 = new dog<>(12,"riddhika","ghat54");
+        System.out.println(d1.age);
+        System.out.println(d1.name);
+        System.out.println(d1.id);
+        dog<Integer,String,String> d2 = new dog<>(123,"riddhi","12rgat");
+        System.out.println(d2.name);
+        dog<Integer,String,String> d3 = new dog<>(435,"chhotu","gust56");
+        System.out.println(d3.name);
+        //yah sb tarah k data type chl jayenge
+        //pr ye dyan rakhna ki wapper class hi chalega
+        //primitive type nhi chalega
+
+    }
+    //ab generic class bnate h
+
+    static class dog<E,V,C> {
+        E age;
+        V name;
+        C id;
+
+        public dog(E age,V name,C id ) {
+            this.name = name;
+            this.age= age;
+            this.id=id;
+
+
 
         }
-        //ab generic class bnate h
 
-    static class dog<E>{
-            E age ;
-            E name ;
-            E id;
 
-           public dog(E name){
-                this.name = name ;
 
-            }
+//method bhi generic ho sakti h
+
+
+        }
+    static <T> void genericmethod(T data){
+        System.out.println(data);
     }
-
-
 
 }
 
