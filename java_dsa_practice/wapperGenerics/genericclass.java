@@ -51,13 +51,13 @@ public class genericclass {
     public static void main (String args[]){
         genericmethod("riddhika");
 
-        dog<Integer,String,String> d1 = new dog<>(12,"riddhika","ghat54");
+        dog<Integer,String,String,Integer> d1 = new dog<>(12,"riddhika","ghat54",7858394);
         System.out.println(d1.age);
         System.out.println(d1.name);
         System.out.println(d1.id);
-        dog<Integer,String,String> d2 = new dog<>(123,"riddhi","12rgat");
+        dog<Integer,String,String,Integer> d2 = new dog<>(123,"riddhi","12rgat",9752745);
         System.out.println(d2.name);
-        dog<Integer,String,String> d3 = new dog<>(435,"chhotu","gust56");
+        dog<Integer,String,String,Integer> d3 = new dog<>(435,"chhotu","gust56",3745389);
         System.out.println(d3.name);
         //yah sb tarah k data type chl jayenge
         //pr ye dyan rakhna ki wapper class hi chalega
@@ -66,15 +66,17 @@ public class genericclass {
     }
     //ab generic class bnate h
 
-    static class dog<E,V,C> {
+    static class dog<E,V,C,d> {
         E age;
         V name;
         C id;
+        d number;
 
-        public dog(E age,V name,C id ) {
+        public dog(E age,V name,C id ,d number) {
             this.name = name;
             this.age= age;
             this.id=id;
+            this.number= number;
 
 
 

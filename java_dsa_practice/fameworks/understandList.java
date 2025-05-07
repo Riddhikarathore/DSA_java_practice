@@ -84,6 +84,7 @@ public class understandList {
 
         l1.clear();
 
+//ab aage ka dekhte h
 
     }
 }
