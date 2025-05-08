@@ -86,15 +86,13 @@ public class genericclass {
 
 //method bhi generic ho sakti h
 
-
         }
     static <T> void genericmethod(T data){
         System.out.println(data);
     }
     //toh ye bhi chal jayega
     //generic interfaces bhi ho saakte h
-
-
+    //genruic
 
 }
 
