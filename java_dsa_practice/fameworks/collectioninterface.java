@@ -4,7 +4,7 @@ package fameworks;
 import java.util.ArrayList;
 import java.util.List;
 
-public class understandList {
+public class collectioninterface {
     public static void main(String[] args) {
         //ab yaha hum ek list bna kr dekhte h jo arraylist ko impliment kr rahi h
 
