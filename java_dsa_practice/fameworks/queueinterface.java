@@ -107,7 +107,53 @@ public class queueinterface {
         System.out.println(d1.peekLast());
 
 
-        //so thats all about queue methods
+        //so that's all about queue methods
+
+        //now
+        //stack and queue using arraydeque
+
+        //stack operation
+        //push nd pop
+
+        //queue operation
+        //add or offer
+        //remove or poll
+        System.out.println("stack and queue using arrayqueue");
+
+        ArrayDeque<Integer> a1 = new ArrayDeque<>();
+
+        a1.push(10);
+        a1.push(20);
+        a1.push(30);
+
+        System.out.println("stack "+a1);
+
+        System.out.println(a1.pop());
+        System.out.println(a1);
+        System.out.println(a1.peek());
+
+        ArrayDeque<Integer> a2 = new ArrayDeque<>();
+
+        a2.offer(40);
+        a2.offer(50);
+        a2.offer(60);
+
+        System.out.println("queue"+a2);
+
+        System.out.println(a2.poll());
+        System.out.println(a2.remove(50));
+        System.out.println(a2);
+        System.out.println(a2.peek());
+
+
+        //so that's how we can use queue and stack method  ussing arrayqueue
+
+        //priority queue
+
+        //by default jiski value sbse chhoti h vo pehle bahar niklta h
+        //hum change bhi kr sakte yh comparators ka use krke
+
+
 
 
 
