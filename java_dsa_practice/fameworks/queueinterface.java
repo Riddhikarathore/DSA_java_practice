@@ -148,7 +148,6 @@ public class queueinterface {
 
         //so that's how we can use queue and stack method  ussing arrayqueue
 
-        //priority queue
 
         //by default jiski value sbse chhoti h vo pehle bahar niklta h
         //hum change bhi kr sakte yh comparators ka use krke
