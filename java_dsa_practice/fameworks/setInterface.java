@@ -1,12 +1,28 @@
 package fameworks;
 
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class setInterface {
+    //ENUM
+
+    enum colour {
+
+        RED,GREEN,BLUE,ORANGE
+        //BS YE HI SUPPORT KREGA
+
+    }
+
     public static void main(String[] args) {
+        //ENUM
+
+        System.out.println(colour.BLUE);
+
+        //aagr iska set bnana ho toh vo bhi bn jayega
+
+
+        EnumSet<colour> color = EnumSet.allOf(colour.class);
+
+
 
         //set interface use hota h time complexity km krne k liye
         //duplicate allow nhi horte yaha
@@ -76,6 +92,14 @@ public class setInterface {
 
 
         // ab enum dekhte h or ye jyada use m nhi aata wese
+
+        //jb hum chate h ki bs koi ye hi support kre
+        //jese ki koi teen colouyr ko hi support kre
+
+
+
+
+
 
 
 

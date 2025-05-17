@@ -71,7 +71,7 @@ public class hashsetofcustomset {
         //nhi support krwane k liye hum equals or hashcode ka use krenge
         //lgane k baad ek hi bar aayga duplicate support nhi krega rollnumber same hoga toh
 
-
+//this is all about how hashset works with custom class
 
     }
 
