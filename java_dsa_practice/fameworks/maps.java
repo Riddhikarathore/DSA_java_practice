@@ -50,6 +50,70 @@ public class maps {
         //or aagr humne same key pass kiya h toh pehle wali value nhi baad wali value assing hogi
 
 
+        //ab aagr humko chahiye koi element toh
+
+        System.out.println(m1.get("ru"));
+
+        m1.putIfAbsent("ra","anshi");
+        //isse hum ek key or value add kr sakte h aagr vo present nhi h toh
+
+        m1.putIfAbsent("ru","riddhi");
+        //ye nhi add hoga kyuki ye toh key already h isliye
+
+        System.out.println(m1);
+
+      //  m1.getOrDefault("rs","ram");
+
+        System.out.println(m1.containsKey("ru"));
+        System.out.println(m1.containsKey("up"));
+        //ye sb btayega ki key present h ya nhi true ya false
+
+
+        System.out.println(m1.containsValue("sanskari"));
+        System.out.println(m1.containsValue("ram"));
+        //ye bs btayega ki value present h ya nhi
+
+
+
+
+        m1.replace("ru","ruhi");
+        //ye bs replace kr dega us key ki value ko
+
+        m1.remove("ru");
+        //ye delet hi kr dega key ko
+
+        //ab aagr apnko pura aalag se sirf key ya values ka set chahiye ho toh
+
+        Set<String> keys = m1.keySet();
+        System.out.println(keys);
+        //isse kets ka set mila
+
+
+       // Set<String> s2 = m1.values();
+        //ye collection se hoga kyuki set toh duplicate aloow hi nhi krega isliye collection
+
+        Collection<String> values = m1.values();
+        System.out.println(values);
+        //ab isse humko values ka set mil jayega
+
+        System.out.println(m1.entrySet());
+        //isse bs dono ka set aayega
+        System.out.println(m1);
+
+
+        //ab iteration dekhe
+
+
+        Set<Map.Entry<String,String>> entries = m1.entrySet();
+
+        for(Map.Entry<String,String> entry : entries){
+            System.out.println(entry.getKey()+","+entry.getValue());
+        }
+
+
+
+
+
 
 
     }
