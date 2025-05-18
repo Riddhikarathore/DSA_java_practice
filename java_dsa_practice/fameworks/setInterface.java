@@ -96,15 +96,5 @@ public class setInterface {
         //jb hum chate h ki bs koi ye hi support kre
         //jese ki koi teen colouyr ko hi support kre
 
-
-
-
-
-
-
-
-
-
-
-    }
+  }
 }
