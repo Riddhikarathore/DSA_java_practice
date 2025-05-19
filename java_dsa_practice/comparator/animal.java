@@ -1,6 +1,6 @@
 package comparator;
 
-public class animal {
+public class animal implements Comparable<animal>{
     int rollnumber ;
     String name ;
 
@@ -15,5 +15,10 @@ public class animal {
                 "rollnumber=" + rollnumber +
                 ", name='" + name + '\'' +
                 '}'+"\n";
+    }
+
+    @Override
+    public int compareTo(animal that) {
+        return this.rollnumber - that.rollnumber;
     }
 }

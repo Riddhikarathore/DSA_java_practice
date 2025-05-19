@@ -1,6 +1,7 @@
 package comparator;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class comparators {
@@ -20,6 +21,10 @@ public class comparators {
         dogs.add(a5);
 
         System.out.println(dogs);
+
+        Collections.sort(dogs);
+        System.out.println(dogs);
+
 
 
 
