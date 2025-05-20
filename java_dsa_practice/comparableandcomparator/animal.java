@@ -1,4 +1,4 @@
-package comparator;
+package comparableandcomparator;
 
 public class animal implements Comparable<animal> {
     //compalable ko implement krna padhega then uski methods ko bhi implement krna hoga
@@ -39,10 +39,7 @@ public class animal implements Comparable<animal> {
 
         //ye hota h camparable
         //comparable ko implement krna padhta h then uski method compare to ki help se hum sort krte h
-        //pr isme ek problem h ki aagr aage apko fir se sort krna h aalag basis pr toh apko yaha change krnahoga
-        //pr aagr is custom class ko koi or use kr raha hoga toh uske liye bhi change ho jayega jo hum nhi chahte
-        //isliye hum chahte h ki sirf humare liye sorting condition change ho toh
-        //hum comparator use krte h
+
 
 
     }
