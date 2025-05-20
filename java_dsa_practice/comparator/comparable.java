@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class comparators {
+public class comparable {
     public static void main(String[] args) {
-        animal a1 = new animal("bruno",11);
-        animal a2 = new animal("druno",13);
-        animal a3 = new animal("kruno",12);
-        animal a4 = new animal("sruno",18);
-        animal a5 = new animal("oruno",16);
+        animal a1 = new animal("bruno",2,23);
+        animal a2 = new animal("druno",1,45);
+        animal a3 = new animal("kruno",2,22);
+        animal a4 = new animal("sruno",3,20);
+        animal a5 = new animal("oruno",4,19);
 
         List<animal> dogs = new ArrayList<>();
 
